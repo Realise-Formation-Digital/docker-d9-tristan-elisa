@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+  background-color: indianred; 
+  font-family: Nunito, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+.article-picture {
+  height: 5vh;
+}

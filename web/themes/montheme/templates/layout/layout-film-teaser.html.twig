@@ -1,0 +1,15 @@
+{% set classes = [
+  'film',
+  'teaser',
+  'card'
+] %}
+
+
+<div {{ attributes.addClass(classes) }} style="width: 18rem;">
+    <a href="{{ path('entity.node.canonical', {'node': content['#node'].id}) }}">
+        {{ content.picture }}
+        <div class="card-body">
+            {{ content.title }}
+        </div>
+    </a>
+</div>
